@@ -1,0 +1,78 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Vendedores
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            
+        }
+
+        public class Venda
+        {
+            private int qtde;
+            private double valor;
+
+            public double valorMedio()
+            {
+                return; //acrescentar o retorno
+            }
+        }
+
+        public class Vendedor
+        {
+            private int id;
+            private string nome;
+            private double percComissao;
+            private Venda[] asVendas;
+
+            public void registrarVenda(int dia, Venda venda)
+            {
+
+            }
+            public double valorVendas()
+            {
+
+            } 
+            public double valorComissao()
+            {
+
+            }
+        }
+        
+        public class Vendedores
+        {
+            private Vendedor[] osVendedores;
+            private int max;
+            private int qtde;
+
+            public bool addVendedor(Vendedor v)
+            {
+
+            }
+            public bool delVendedor(Vendedor v)
+            {
+
+            }
+            public Vendedor searchVendedor(Vendedor v)
+            {
+
+            }
+
+            public double valorVendas()
+            {
+
+            }
+            public double valorComissao()
+            {
+
+            }
+        }
+    }
+}
